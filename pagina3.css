@@ -57,11 +57,11 @@ body{
     text-decoration: underline;
 }
 
-.menu ul{
+.main ul{
     list-style: none;
 }
 
-.menu li>a{
+.main li>a{
     background-color: rgb(80, 80, 94);
     color: white;
     padding: 10px;
@@ -72,32 +72,32 @@ body{
 }
 
 
-.menu li>a:hover{
+.main li>a:hover{
     color: #000;
     background-color:#eaeaea;
 }
 
-.menu>li{
+.main>li{
     float: center;
     text-align: center;
     width: 200px;
 }
 
-.menu>li>ul{
+.main>li>ul{
     display: none;
 }
 
-.menu>li:hover>ul{
+.main>li:hover>ul{
     display: block;
     list-style: none;
 }
 
-.tabla th, .tabla td{
+.table th, .table td{
     border: 1px solid rgb(7, 7, 7);
     text-align: center;
 }
 
-.tabla {
+.table {
     border-collapse: collapse;
     width: 50%;
     text-align: center;
@@ -106,7 +106,7 @@ body{
     background-color: #fff;
 }
 
-.tabla  th {
+.table  th {
     text-transform: uppercase;
     background-color: rgb(80, 80, 94);
     color: white;

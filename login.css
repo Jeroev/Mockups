@@ -39,7 +39,7 @@ body{
     max-width: 500px;
     margin: 1.6em auto;
     display: grid;
-    grid-template-columns: repeat(1, 1fr); 
+    grid-template-columns: repeat(1, 1fr);
     margin: 300px auto;
 }
 
@@ -47,7 +47,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 
